@@ -1,6 +1,6 @@
 # AirDrag-RK4-Search
 
-## 🚀 项目概述 (Project Overview)
+## 项目概述 (Project Overview)
 
 本项目结合**四阶龙格-库塔法 (RK4)** 和**三分法 (Ternary Search)**，精确计算了在**二次方空气阻力**作用下，抛体能够达到**最远水平射程**时的**最优发射角度**。
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🛠️ 方法与技术 (Methodology and Techniques)
+## 方法与技术 (Methodology and Techniques)
 
 ### 1. 模拟核心：四阶龙格-库塔法 (RK4)
 
@@ -30,7 +30,7 @@ $$\vec{a} = \frac{d\vec{v}}{dt} = \vec{g} - k|\vec{v}|\vec{v}$$
 
 ---
 
-## ⚙️ 代码结构与功能
+## 代码结构与功能
 
 本项目包含以下主要函数：
 
@@ -43,7 +43,7 @@ $$\vec{a} = \frac{d\vec{v}}{dt} = \vec{g} - k|\vec{v}|\vec{v}$$
 
 ---
 
-## ▶️ 使用说明 (Usage)
+## 使用说明 (Usage)
 
 ### 环境要求
 
@@ -56,4 +56,9 @@ $$\vec{a} = \frac{d\vec{v}}{dt} = \vec{g} - k|\vec{v}|\vec{v}$$
 直接运行主程序即可启动优化过程并生成可视化图表：
 
 ```bash
-python your_script_name.py
+python3 AirDrag-RK4-Search.py
+```
+
+### 运行效果
+
+<img src="./result.png" width=800 alt="演示图片">
